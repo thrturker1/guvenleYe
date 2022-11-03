@@ -1,0 +1,18 @@
+package istersenyeme.net.yemedeYat.service;
+
+import java.util.*;
+
+import istersenyeme.net.yemedeYat.entities.Foods;
+
+public interface FoodService {
+	
+	public List<Foods> getAllFoods();
+	
+	public Foods getOneFood(int id);
+	
+	public Foods postOneFood(Foods food);
+	
+	public Foods putOneFood(int id,Foods food);
+	
+	public void deleteOneFood(int id);
+}

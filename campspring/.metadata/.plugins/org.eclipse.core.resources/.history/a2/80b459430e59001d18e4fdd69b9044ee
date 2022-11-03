@@ -1,0 +1,18 @@
+package com.guvenleye.guvenleYe.service.abstracts;
+
+import java.util.List;
+
+import com.guvenleye.guvenleYe.entities.Admin;
+
+public interface AdminService {
+
+	public List<Admin> getAllAdmins();
+	
+	public Admin getOneAdmin(int id);
+	
+	public Admin postOneAdmin(Admin admin);
+	
+	public Admin putOneAdmin(Admin admin,int id);
+	
+	public void deleteOneAdmin(int id);
+}

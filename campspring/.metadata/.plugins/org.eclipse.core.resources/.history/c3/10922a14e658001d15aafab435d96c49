@@ -1,0 +1,33 @@
+package com.guvenleye.guvenleYe.controllers;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.guvenleye.guvenleYe.entities.Foods;
+import com.guvenleye.guvenleYe.service.FoodsServiceImp;
+
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequestMapping("/api/admin")
+@CrossOrigin
+@RequiredArgsConstructor
+public class FoodController {
+	private final FoodsServiceImp foodService = new FoodsServiceImp();
+	
+	public ResponseEntity<?> getAllFoods() {
+		List<Foods> list = foodService.getAllFoods();
+		return new ResponseEntity<>(list,HttpStatus.OK);
+	}
+	
+	public ResponseEntity<?> getOneFood(@PathVariable int id) {
+		Foods food = 
+		return new ResponseEntity<>(food,HttpStatus.OK);
+	}
+}

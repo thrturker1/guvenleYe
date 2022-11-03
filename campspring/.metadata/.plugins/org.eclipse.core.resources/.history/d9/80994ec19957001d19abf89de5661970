@@ -1,0 +1,18 @@
+package istersenyeme.net.yemedeYat.service;
+
+import java.util.List;
+
+import istersenyeme.net.yemedeYat.entities.Admin;
+
+public interface AdminService {
+
+	public List<Admin> getAllAdmin();
+	
+	public Admin getOneAdmin(int id);
+	
+	public Admin postOneAdmin(Admin admin);
+	
+	public Admin putOneAdmin(int id,Admin admin);
+	
+	public void deleteOneAdmin(int id);
+}

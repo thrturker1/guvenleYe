@@ -1,0 +1,6 @@
+package istersenyeme.net.yemedeYat.service;
+
+public interface OrderService {
+
+	
+}

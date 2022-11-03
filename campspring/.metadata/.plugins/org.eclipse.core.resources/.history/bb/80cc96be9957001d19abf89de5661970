@@ -1,0 +1,5 @@
+package istersenyeme.net.yemedeYat.repositories;
+
+public interface AdminRepository {
+
+}
