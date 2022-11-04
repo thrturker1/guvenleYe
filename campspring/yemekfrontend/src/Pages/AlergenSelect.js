@@ -1,11 +1,12 @@
 import React from 'react'
 import Appbar from './components/Appbar'
+import Dashboard from './components/Dashboard'
 
 function AlergenSelect(){
 
     return (
-        <div className="Home">
-            <Appbar/>
+        <div className="AlergenSelect">
+            
         </div>
     )
 
