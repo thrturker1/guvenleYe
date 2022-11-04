@@ -1,12 +1,10 @@
 import React from 'react'
-import Appbar from './components/Appbar'
-import Dashboard from './components/Dashboard'
 
-function AlergenSelect(){
+export default function AlergenSelect(){
 
     return (
         <div className="AlergenSelect">
-            
+            cop
         </div>
     )
 
