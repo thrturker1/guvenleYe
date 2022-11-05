@@ -1,12 +1,10 @@
-import React from 'react';
-import Appbar from './components/Appbar';
-import Dashboard from './components/Dashboard';
+import React from 'react'
 
-export default function Home() {
-     return (
-        <div>
-         <Appbar/>
-         <Dashboard/>
-        </div>
-     )
+function HomePage() {
+
+    return(
+        <div>Naber Mudur!</div>
+    )
 }
+
+export default HomePage;

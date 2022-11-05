@@ -1,12 +1,19 @@
 import './App.css';
-import Home from "./Pages/HomePage";
-import AlergenSelect from "./Pages/AlergenSelect";
+import React, { useState } from 'react'
+import Appbar from './components/Appbar'
+import HomePage from './pages/HomePage';
+
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <AlergenSelect/>
+      <Appbar/>
+      <HomePage/>
+      <>
+      <input type="text"/> 
+      <button>Addtodo</button>
+      <button>cleartodo</button>
+      </>
     </div>
   );
 }
