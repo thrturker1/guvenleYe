@@ -1,5 +1,0 @@
-package com.guvenleye.guvenleYe.repositories;
-
-public interface ManagerRepository {
-
-}

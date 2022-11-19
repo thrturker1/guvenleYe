@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout','31'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,6 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
+    
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -51,11 +52,11 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'default',
               textDecoration: 'none',
             }}
           >
-            NOOB
+            TOGG OTOMOBILIMIZ YERLI VE MILLI
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -65,7 +66,7 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="error"
             >
               <MenuIcon />
             </IconButton>
@@ -156,7 +157,11 @@ function ResponsiveAppBar() {
           </Box>
         </Toolbar>
       </Container>
+
+      
     </AppBar>
+
+    
   );
 }
 export default ResponsiveAppBar;

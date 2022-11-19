@@ -1,5 +1,0 @@
-package com.guvenleye.guvenleYe.service;
-
-public class Orders implements O{
-
-}

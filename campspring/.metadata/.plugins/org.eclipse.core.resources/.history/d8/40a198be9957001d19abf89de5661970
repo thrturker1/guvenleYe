@@ -1,5 +1,0 @@
-package istersenyeme.net.yemedeYat.repositories;
-
-public interface FoodsRepository {
-
-}

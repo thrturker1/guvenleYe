@@ -1,8 +1,0 @@
-package com.guvenleye.guvenleYe.service;
-
-import com.guvenleye.guvenleYe.repositories.ManagerRepository;
-
-public class ManagerSImp implements ManagerRepository{
-
-	
-}

@@ -1,5 +1,0 @@
-package com.guvenleye.guvenleYe.service.abstracts;
-
-public interface OrdersService {
-
-}

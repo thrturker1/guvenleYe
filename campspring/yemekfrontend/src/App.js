@@ -7,8 +7,8 @@ import HomePage from './pages/HomePage';
 function App() {
   return (
     <div className="App">
-      <Appbar/>
-      <HomePage/>
+      
+      <AdminPage/>
       <>
       <input type="text"/> 
       <button>Addtodo</button>

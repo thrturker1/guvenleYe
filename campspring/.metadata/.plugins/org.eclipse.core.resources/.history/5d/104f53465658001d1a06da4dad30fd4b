@@ -1,7 +1,0 @@
-package com.guvenleye.guvenleYe.service.abstracts;
-
-import com.guvenleye.guvenleYe.service.abstracts.AdminService;
-
-public class AdminServiceImpjava implements AdminService{
-
-}
